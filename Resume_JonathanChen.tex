@@ -56,7 +56,7 @@
 
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-1pt}\item
+  \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
@@ -64,20 +64,20 @@
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-  \vspace{-3pt}\item
+  \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} &  \textit{\small #2} \\
-    \end{tabular*}\vspace{-1pt}
+    \end{tabular*}\vspace{-2pt}
 }
 
 \newcommand{\resumeSimpleProjectHeading}[3]{
-  \vspace{-3pt}\item
+  \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} &  \textit{\small #2} \\
-    \end{tabular*}\vspace{-1pt}
+    \end{tabular*}\vspace{-2pt}
     {\begin{itemize}[leftmargin=*]
     \small{#3}
-    \end{itemize}}\vspace{-5pt}
+    \end{itemize}}\vspace{-2pt}
 }
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
@@ -96,20 +96,20 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\Large Jonathan Chen} & Email : jonathanchen095@gmail.com \\ 
-   & Mobile : +1 562-213-6598\\
+  \textbf{\Large Jonathan Chen} & Email : jonathanchen095@gmail.com \textbar \textbar { }Mobile: +1 562-213-6598 \\ 
+   & \href{https://jonathanthec.github.io/}{Personal Website} \textbar \textbar { }\href{https://www.linkedin.com/in/jonathan-chen1/}{LinkedIn} \textbar \textbar { }\href{https://github.com/jonathanthec/}{Github}\\
 \end{tabular*}
 
 %--------PROGRAMMING SKILLS------------
 \section{Programming Skills}
   \resumeSubHeadingListStart
-  \resumeItem{Languages}{: Java, Vanilla Javascript, React.js, Node.js, GraphQL.js, Python, SQL. }\vspace{-5pt}
-  \resumeItem{Skills}{: Full Stack Web Development, PostgreSQL, NoSQL, Machine Learning, Data Science}\vspace{-5pt}
-  \resumeItem{Tools}{: Git, Docker, AWS, Prisma, TensorFlow. }
+  \resumeItem{Languages and Frameworks}{: Java, JavaScript, React.js, Node.js, GraphQL, Python, SQL. }\vspace{-5pt}
+  \resumeItem{Skills}{: Full Stack Web Development, Relational Database Management (PostgreSQL, NoSQL), Data Science}\vspace{-5pt}
+  \resumeItem{Tools}{: Git/Github, Docker, Amazon Web Services, Prisma, LaTeX }
   \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------------
-\section{Experience}
+\section{Professional Experience}
   \resumeSubHeadingListStart
   
     \resumeSubheading
@@ -127,7 +127,7 @@
     {Teacher Facilitator}{August 2018 -- June 2019}
     \resumeItemListStart 
         \resumeItem{}{Served as math instructor for students at Second High School Attached to Beijing Normal University}
-        \resumeItem{}{Delivered planned course curriculum and customized learning plans for students}
+        \resumeItem{}{Delivered planned course curriculum and created personal learning plans for students, increased students marks by 8\% on average}
         \resumeItem{}{Led school's Computer Science Club and delivered lectures on cryptography topics}
     \resumeItemListEnd
 
@@ -138,52 +138,35 @@
         \resumeItem{}
           {Oversaw campus residents' well-being and addressed inter-personal conflicts}
         \resumeItem{}
-          {Organized and led campus programs and events that promoted cultural awareness}
+          {Organized and led campus programs and events that promoted cultural awareness and were attended by more than 400 people}
         \resumeItem{}
           {Planned and executed social and educational events for campus residents}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
-  
-  %-----------EDUCATION-----------------
-\section{Education and Training}
-  \resumeSubHeadingListStart
-      \resumeSubheading
-      {Lambda School}{Remote}
-      {Full Stack Web Development}{February 2020}
-       \resumeItemListStart
-        \resumeItem{Curriculum: }{Full stack web development; HTML/CSS, Javascript, ReactJS/NodeJS} 
-      \resumeItemListEnd
-    \resumeSubheading
-      {University of California, San Diego}{La Jolla, CA}
-      {Bachelor of Science in Applied Mathematics}{June 2018}
-      \resumeItemListStart
-        \resumeItem{Courses: }{Linear Algebra, Mathematical Statistics, Probability Theory, Object Oriented Programming} 
-      \resumeItemListEnd
-  \resumeSubHeadingListEnd
-
 
 %-----------PROJECTS-----------------
-\section{Projects}
+\section{Personal Projects}
   \resumeSubHeadingListStart
 		
-	\resumeProjectHeading{Rent Tracker}{}
+	\resumeProjectHeading{Rent Tracker -  \href{https://eloquent-allen-9afae2.netlify.app/}{Deployed Link}}{}
 		\resumeItemListStart
-				\resumeSimpleItem{Developed a web application for users to track their rental properties and rental payment collections}
-				\resumeSimpleItem{Features GraphQL, Express, and JWT authentication on backend}
+				\resumeSimpleItem{Full stack web application for users to track their rental properties and rental payment collections}
+				\resumeSimpleItem{Solely responsible for building the project's backend using GraphQL/Prisma/Apollo, and frontend using React}
+				\resumeSimpleItem{Incorporated Google Map API to automatically generate locations of properties}
 		\resumeItemListEnd
     
-	\resumeProjectHeading{Pathfinding Visualizer}{}
+	\resumeProjectHeading{Pathfinding Visualizer -  \href{https://jonathanthec.github.io/maze-solver/}{Deployed Link}}{}
         		\resumeItemListStart
-         			\resumeSimpleItem{Built React application for visualizing pathfinding algorithms and maze-generation algorithms}
-			         \resumeSimpleItem{Built custom hooks and created modal components for the project }
-         			\resumeSimpleItem{Designed animation effects using CSS animate}
+         			\resumeSimpleItem{React application for visualizing pathfinding algorithms and maze-generation algorithms}
+			         \resumeSimpleItem{Solely responsible for the project, designed and implemented animation effects using CSS animate}
+         			\resumeSimpleItem{Built custom React hooks and created customized modal components for the project }
        		\resumeItemListEnd
 		
-    	\resumeProjectHeading{Housing Price Predictor Model}{}
+    	\resumeProjectHeading{Housing Price Predictor Model -  \href{https://github.com/jonathanthec/housing-price-regression}{Github Repo}}{}
         		\resumeItemListStart
-         			\resumeSimpleItem{Constructed a machine learning model using Python to predict house prices}
+         			\resumeSimpleItem{Constructed a machine learning model using Python to predict real estate prices using real world data}
          			\resumeSimpleItem{Used advanced machine learning techniques through Xgboost and TensorFlow to increase model accuracy by 30\%}
-			         \resumeSimpleItem{Generated data visualization sets using Python libraries}
+			         \resumeSimpleItem{Implemented data cleaning techniques and generated data visualization sets using Python libraries}
        		\resumeItemListEnd
 	
 	%\resumeSimpleProjectHeading{Another Full Stack Project}{2020}
@@ -194,6 +177,23 @@
 		
     	%\resumeSimpleProjectHeading{A Chrome Plugin}{2020}
 	   	%{Implemented a gossip membership protocol in an emulated distributed system.}
+  \resumeSubHeadingListEnd
+  
+%-----------EDUCATION-----------------
+\section{Education and Training}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {Lambda School}{Remote}
+      {Full Stack Web Development \& Computer Science}{September 2019 - February 2020}
+       \resumeItemListStart
+        \resumeItem{Curriculum: }{Full stack web development; HTML/CSS, Javascript, ReactJS/NodeJS} 
+      \resumeItemListEnd
+    \resumeSubheading
+      {University of California, San Diego}{La Jolla, CA}
+      {Bachelor of Science in Applied Mathematics}{June 2018}
+      \resumeItemListStart
+        \resumeItem{Courses: }{Linear Algebra, Mathematical Statistics, Probability Theory, Object Oriented Programming} 
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
 %-------------------------------------------
 \end{document}
